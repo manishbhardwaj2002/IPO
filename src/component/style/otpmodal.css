@@ -1,0 +1,294 @@
+.modalBackgroundotp {
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.modalBackgroundotp table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.modalBackgroundotp .modalContainer {
+  width: 35%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.xclose {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  color: #fff;
+  background-color: crimson;
+  align-self: flex-end;
+  margin-top: -1.5em;
+  margin-right: -1.5em;
+}
+.modalBackgroundotp .modalContainer .title {
+  display: inline-block;
+  text-align: center;
+}
+/* .titleCloseBtn{
+    display: flex;
+    justify-content: flex-end;
+  } */
+/* .titleClosebtn button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  } */
+.modalBackgroundotp .modalContainer .body {
+  flex: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.modalBackgroundotp .modalContainer .footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.modalBackgroundotp .modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+#cancelBtn {
+  background: #ea3a3d;
+}
+
+.modalBackgroundotp .modalbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 24px;
+}
+
+.modalBackgroundotp .modalbody .head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  color: #424242;
+  margin-bottom: 20px;
+}
+
+.modalBackgroundotp .modalbody .des {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin-bottom: 40px;
+
+  /* or 29px */
+
+  text-align: center;
+
+  color: #6e6e6e;
+}
+
+.modalBackgroundotp .modalbody .otpbox {
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modalBackgroundotp .modalbody .otpbox input {
+  width: 50px;
+  height: 50px;
+  background: #fafafa;
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  border-radius: 8px;
+  text-align: center;
+
+  outline: none;
+}
+
+.modalBackgroundotp .modalbody .resend {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.modalBackgroundotp .modalbody .resend span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 100%;
+  color: #6e6e6e;
+  margin-bottom: 50px;
+}
+
+.modalBackgroundotp .modalbody .resend .green {
+  color: #0ca750;
+  margin-left: 5px;
+}
+
+.modalBackgroundotp .submitbtn {
+  width: 275px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding: 12px 0px;
+  outline: none;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background: #0ca750;
+  border-radius: 6px;
+}
+
+.modalBackgroundotp .resendbtn {
+  width: 275px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #0ca750;
+  padding: 12px 0px;
+  outline: none;
+  border: 1px solid #0ca750;
+  outline: none;
+  cursor: pointer;
+
+  background: #fff;
+  border-radius: 6px;
+}
+
+@media (max-width: 575.98px) {
+  .modalBackgroundotp .modalContainer {
+    width: 90%;
+  }
+
+  .modalBackgroundotp .modalbody .head {
+    font-size: 18px;
+    line-height: 125%;
+    margin-bottom: 10px;
+  }
+
+  .modalBackgroundotp .modalbody {
+    padding: 25px 10px;
+  }
+
+  .modalBackgroundotp .modalbody .des {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .modalBackgroundotp .submitbtn {
+    width: 250px;
+  }
+
+  .modalBackgroundotp .resendbtn {
+    width: 250px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .modalBackgroundotp .modalContainer {
+    width: 86%;
+    margin-top: 0%;
+  }
+  .modalBackgroundotp .modalbody .resend span {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .modalBackgroundotp .modalContainer {
+    width: 70%;
+    margin-top: 5%;
+  }
+
+  .modalBackgroundotp .modalbody .resend span {
+    margin-bottom: 20px;
+  }
+
+  .modalBackgroundotp .modalbody .resend span {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .modalBackgroundotp .modalContainer {
+    width: 50%;
+  }
+
+  .modalBackgroundotp .modalbody .resend span {
+    margin-bottom: 20px;
+  }
+
+  .modalBackgroundotp .modalbody {
+    padding: 30px 24px;
+  }
+  .modalBackgroundotp .submitbtn {
+    width: 250px;
+  }
+
+  .modalBackgroundotp .resendbtn {
+    width: 250px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .modalBackgroundotp .modalContainer {
+    width: 50%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+  }
+  .modalBackgroundotp .modalbody .resend span {
+    margin-bottom: 20px;
+  }
+
+  .modalBackgroundotp .modalbody {
+    padding: 30px 24px;
+  }
+
+  .modalBackgroundotp .submitbtn {
+    width: 255px;
+  }
+
+  .modalBackgroundotp .resendbtn {
+    width: 255px;
+  }
+}

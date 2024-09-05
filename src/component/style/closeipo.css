@@ -1,0 +1,487 @@
+.closeipo {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  padding: 8px;
+}
+
+
+
+.closeipo .topbox .head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #050708;
+  margin-top: 12px;
+  width: 18%;
+  display: inline;
+  float: left;
+}
+
+.closeipo .topbox .searchbox {
+  width: 50%;
+  float: left;
+  display: inline;
+  text-align: center;
+  position: relative;
+}
+
+.closeipo .topbox .tabbox {
+  width: 30%;
+  float: left;
+  display: inline;
+}
+
+.closeipo .topbox {
+  padding: 15px 10px;
+}
+
+.closeipo .topbox .searchbox input {
+  background: rgba(234, 238, 244, 0.5);
+
+  border-radius: 5px;
+  line-height: 35px;
+  border: 1px solid #eaeef4;
+  width: 80%;
+  padding: 5px 28px;
+}
+
+.closeipo .topbox .searchbox input:focus-visible {
+  border: 1px solid #eaeef4 !important;
+  outline: none;
+}
+
+.closeipo .topbox .searchbox input::placeholder {
+  color: rgba(110, 110, 110, 0.5);
+  text-indent: 20px;
+}
+
+.closeipo .topbox .searchbox .fa-search {
+  position: absolute;
+  top: 14px;
+  left: 12%;
+  font-size: 15px;
+  color: rgba(110, 110, 110, 0.5);
+}
+
+.closeipo .tabbox ul {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  margin-top: 12px;
+}
+
+.closeipo .tabbox ul li {
+  list-style: none;
+  margin-right: 10px;
+  display: inline;
+}
+
+.closeipo .tabbox ul li a.active {
+  text-decoration: none;
+  background: rgba(12, 167, 80, 0.1);
+  border: 1px solid #0ca750;
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 14px;
+  color: #0ca750;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.closeipo .tabbox ul li a {
+  text-decoration: none;
+  background: rgba(218, 226, 238, 0.2);
+  border: 1px solid #dae2ee;
+  border-radius: 6px;
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 14px;
+  color: #424242;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.closeipo .tabledata {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.tabledata th {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: left;
+  color: #6e6e6e;
+}
+
+.closeipo .tabledata tbody tr td {
+  border-top: 10px solid !important;
+  border-bottom: 10px solid !important;
+  border-color: transparent !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.closeipo .tabledata .box {
+  display: flex;
+  align-items: center;
+}
+
+.closeipo .tabledata .box .imgbox-green {
+  margin-right: 5px;
+}
+
+.closeipo .tabledata .box .price-range {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #0ca750;
+}
+
+.closeipo .tabledata .companyname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 2px;
+  color: #050708;
+}
+
+.closeipo .tabledata .companyinfo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #6e6e6e;
+}
+
+.closeipo .min-amount {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ea3a3d;
+}
+
+.closeipo .applybtn {
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  border: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fff;
+  width: 141px;
+  background: #0ca750;
+  border-radius: 4px;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+  .closeipo  {
+    width: 90%;
+    border-radius: 3px;
+    margin-bottom: 3px;
+    padding: 4px;
+  }
+
+  .closeipo .topbox {
+    padding: 10px 8px;
+  }
+
+  
+  .closeipo .topbox .head {
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  .closeipo .topbox .searchbox {
+    width: 100%;
+    float: none;
+    text-align: center;
+    position: relative;
+  }
+
+  .closeipo .topbox .tabbox {
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.closeipo .tabbox ul {
+  margin: 0px;
+  padding: 0px;
+  float: none; 
+  margin-top: 12px;
+}
+
+  .closeipo .topbox .searchbox .fa-search {
+    position: relative;
+    top: 32px;
+    left: 4%;
+  }
+
+  .closeipo .topbox .searchbox input {
+    width: 100%;
+  }
+
+  .closeipo.tabbox ul {
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    margin-top: 15px;
+  }
+
+  .closeipo .tabbox ul li {
+    list-style: none;
+    margin-right: 30px;
+    display: inline;
+  }
+
+  .closeipo .tabledata {
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+  }
+
+  .closeipo .tabledata thead {
+    width: 100%;
+  }
+
+  .closeipo .tabledata th {
+    white-space: nowrap;
+  }
+
+  .closeipo .tabledata td {
+    white-space: nowrap;
+  }
+  .closeipo .tabledata td:nth-of-type(1) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(2) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(3) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(4) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata th:nth-of-type(5) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(5) {
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .closeipo  {
+    width: 90%;
+    padding: 4px;
+  }
+
+  .closeipo .topbox {
+    padding: 10px 8px;
+  }
+
+  .closeipo .topbox .head {
+     width: 18%;
+    display: inline;
+    float: left;
+  }
+ 
+
+  .closeipo .topbox .searchbox {
+    width: 100%;
+    display: inline;
+    float: left;
+    text-align: center;
+    position: relative;
+     margin-bottom:20px;
+  }
+
+  
+
+  .closeipo .topbox .searchbox .fa-search {
+    position: absolute;
+    top: 16px;
+    left: 4%;
+  }
+
+  .closeipo .topbox .searchbox input {
+    width: 100%;
+  }
+
+  .closeipo.topbox .tabbox {
+    width: 60%;
+    margin: auto;
+    float:none;
+    display:block;
+    
+}
+
+.closeipo .tabbox ul {
+   
+    float: none;
+    margin-top: 30px;
+  }
+
+  .closeipo .tabbox ul li {
+    list-style: none;
+    margin-right: 30px;
+    display: inline;
+  }
+
+
+  .closeipo  .tabledata {
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+  }
+
+  .closeipo .tabledata thead {
+    width: 100%;
+  }
+
+  .closeipo .tabledata th {
+    white-space: nowrap;
+  }
+
+  .closeipo .tabledata td {
+    white-space: nowrap;
+  }
+
+  .closeipo  .tabledata td:nth-of-type(1) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(2) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(3) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(4) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata th:nth-of-type(5) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(5) {
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .closeipo  {
+    width: 90%;
+    padding: 6px;
+  }
+
+  .closeipo .topbox .searchbox {
+    width: 45%;
+    float: left;
+    display: inline;
+
+    position: relative;
+  }
+
+  .closeipo .topbox .searchbox input {
+    width: 85%;
+    margin: auto;
+  }
+
+  .closeipo .topbox .searchbox .fa-search {
+    left: 12%;
+  }
+
+  .closeipo .topbox .tabbox {
+    width: 30%;
+    float: right;
+    display: inline;
+  }
+
+  .closeipo  .tabledata {
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+  }
+
+  .closeipo .tabledata thead {
+    width: 100%;
+  }
+
+  .closeipo .tabledata th {
+    white-space: nowrap;
+  }
+
+  .closeipo .tabledata td {
+    white-space: nowrap;
+  }
+  .closeipo .tabledata td:nth-of-type(1) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(2) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(3) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(4) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata th:nth-of-type(5) {
+    padding-right: 20px;
+  }
+
+  .closeipo .tabledata td:nth-of-type(5) {
+    padding-right: 20px;
+  }
+
+  .closeipo .applybtn {
+    width: 100px;
+  }
+}
+

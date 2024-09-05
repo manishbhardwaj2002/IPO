@@ -1,0 +1,572 @@
+.modalBackground {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.modifymodalContainer {
+  width: 68%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+}
+.xclose {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  color: #fff;
+  background-color: crimson;
+  align-self: flex-end;
+  margin-top: -1.5em;
+  margin-right: -1.5em;
+}
+.modifymodalContainer .title {
+  display: inline-block;
+  text-align: center;
+}
+
+.modalContainer .body {
+  flex: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.modifymodalContainer .footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.modifymodalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.modifymodalContainer #cancelBtn {
+  background: #ea3a3d;
+}
+
+.modifymodalContainer .modifymodalbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 30px 24px;
+}
+
+/**********/
+
+.modifymodalContainer .modifymodalbody .togglebtnbox .ipostatustext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 10px;
+
+  line-height: 100%;
+  color: #000000;
+  margin-left: 5px;
+  float: left;
+}
+
+.modifymodalContainer .modifymodalbody .togglebtnbox .ipobtn {
+  float: left;
+  display: inline;
+}
+
+.modifymodalContainer .modifymodalbody .modifytopbar .togglebtnbox {
+  width: 25%;
+  float: left;
+  display: inline;
+  text-align: center;
+}
+
+.modifymodalContainer .modifymodalbody .modifytopbar .searchbox {
+  width: 50%;
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+.modifymodalContainer .modifymodalbody .modifytopbar .searchbox input {
+  background: rgba(234, 238, 244, 0.5);
+  border-radius: 5px;
+  line-height: 28px;
+  border: 1px solid #eaeef4;
+  width: 70%;
+  height: AUTO;
+  padding: 5px 28px;
+  border: 0px;
+  outline: none;
+  float: left;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo ::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  color: #424242;
+}
+
+.modifymodalContainer .modifymodalbody .modifytopbar .searchbox .searchbtn {
+  width: 25%;
+  float: left;
+  margin-left: 1%;
+  padding: 12px 32px;
+  color: #fff;
+  border: 0px;
+  background: #0ca750;
+  border-radius: 5px;
+}
+
+.modifymodalContainer .modifymodalbody .modifytopbar .searchbox .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  font-size: 15px;
+  color: rgba(110, 110, 110, 0.5);
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo {
+  margin-top: 30px;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo .modifyinbodetails {
+  float: left;
+  width: 30%;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  margin-bottom: 20px;
+}
+.modifymodalContainer
+  .modifymodalbody
+  .modifyqueryinfo
+  .modifyinbodetails
+  label {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  margin-bottom: 1%;
+  color: #050708;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo input {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+  outline: none;
+  float: left;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo .modifyinput {
+  background: #ffffff;
+  border: 1px solid #ea3a3d;
+  border-radius: 5px;
+  padding: 10px 15px;
+  outline: none;
+  width: 100%;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo .modifyinput2 {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+  outline: none;
+  width: 100%;
+  text-align: left;
+  height: auto;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo .modifyinputc {
+  margin-bottom: 5px;
+}
+
+.modifymodalContainer
+  .modifymodalbody
+  .modifyqueryinfo
+  .modifyinputc
+  ::placeholder {
+  color: #ea3a3d;
+  margin-bottom: 0px;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo .modifyinputc {
+  margin-top: 0px;
+  position: relative;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo .modifyinputc .editbtn {
+  position: relative;
+  left: 236px;
+  top: -26px;
+  color: #ea3a3d;
+}
+
+.modifymodalContainer
+  .modifymodalbody
+  .modifyqueryinfo
+  .modifyinputc
+  .editbtn2 {
+  position: relative;
+  left: 236px;
+  top: -26px;
+  color: #dddddd;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo .btninfobox {
+  margin-left: 1.5%;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo .btninfobox .modifybtn {
+  background: #0ca750;
+  border-radius: 5px;
+  width: 240px;
+  padding: 14px 0px;
+  border: 0px;
+  margin-right: 1.5%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.modifymodalContainer .modifymodalbody .modifyqueryinfo .btninfobox .cancelbtn {
+  border-radius: 5px;
+  width: 240px;
+  padding: 14px 0px;
+  border: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: #ffffff;
+  border: 1px solid #0ca750;
+  color: #0ca750;
+}
+
+.modifymodalContainer .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.modifymodalContainer .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.modifymodalContainer .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(218, 226, 238, 0.35);
+  border-radius: 33.3817px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.modifymodalContainer .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background: #0ca750;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.modifymodalContainer input:checked + .slider {
+  background: rgba(218, 226, 238, 0.35);
+}
+
+.modifymodalContainer input:focus + .slider {
+  border: 0px;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.modifymodalContainer .slider.round {
+  border-radius: 34px;
+}
+
+.modifymodalContainer .slider.round:before {
+  border-radius: 50%;
+}
+
+@media (max-width: 575.98px) {
+  .modalBackground {
+    width: 100%;
+    height: 100%;
+  }
+  .modifymodalContainer {
+    width: 90%;
+  }
+
+  .modifymodalContainer .xclose {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: transparent;
+    color: #fff;
+    background-color: crimson;
+    align-self: flex-end;
+    margin-top: -1em;
+    margin-right: -0.8em;
+    z-index: 100000;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifyqueryinfo .modifyinbodetails {
+    float: none;
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+    clear: both;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifyqueryinfo input {
+    float: none;
+    width: 94%;
+    margin: auto;
+    text-align: left;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifyqueryinfo .modifyinput2 {
+    float: none;
+    width: 94%;
+    margin: auto;
+    text-align: left;
+  }
+
+  .modifymodalContainer .modifymodalbody {
+    padding: 15px 12px;
+    height: 400px;
+    overflow: auto;
+    justify-content: flex-start;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifyqueryinfo {
+    margin-top: 15px;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifytopbar .togglebtnbox {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifytopbar .searchbox .searchbtn {
+    padding: 12px 12px;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifyqueryinfo .modifyinput {
+    margin: auto;
+    width: 94%;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .modifyinputc
+    .editbtn {
+    left: -22px;
+    top: 0px;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifytopbar .searchbox {
+    width: 100%;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .modifyinbodetails
+    label {
+    font-size: 13px;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .modifyinputc
+    .editbtn2 {
+    left: -24px;
+    top: 2px;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .btninfobox
+    .modifybtn {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+  }
+  .modifymodalContainer .modifymodalbody .modifyqueryinfo .btninfobox {
+    float: none;
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .btninfobox
+    .cancelbtn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .modifymodalContainer .modifymodalbody .modifytopbar .searchbox {
+    width: 75%;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifytopbar .searchbox .searchbtn {
+    padding: 12px;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .modifyinputc
+    .editbtn {
+    left: 112px;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .modifyinputc
+    .editbtn2 {
+    left: 112px;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .btninfobox
+    .modifybtn {
+    width: 45%;
+    float: left;
+    display: inline;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .btninfobox
+    .cancelbtn {
+    width: 45%;
+    float: left;
+    display: inline;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .modifymodalContainer {
+    width: 90%;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .modifyinputc
+    .editbtn {
+    left: 168px;
+  }
+
+  .modifymodalContainer
+    .modifymodalbody
+    .modifyqueryinfo
+    .modifyinputc
+    .editbtn2 {
+    left: 168px;
+  }
+
+  .modifymodalContainer .modifymodalbody .modifytopbar .searchbox {
+    width: 72%;
+  }
+
+  .modifymodalContainer .xclose {
+    margin-top: -0.5em;
+    margin-right: -0.5em;
+    z-index: 1100;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .modifymodalContainer {
+    width: 90%;
+  }
+
+  .modifymodalContainer .modifymodalbody {
+    height: 500px;
+  }
+
+  .modifymodalContainer .xclose {
+    margin-top: -1.5em;
+    margin-right: -1.5em;
+  }
+}

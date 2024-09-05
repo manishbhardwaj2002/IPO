@@ -1,0 +1,230 @@
+.modalBackground {
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.modalContainerthanks table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.modalContainerthanks {
+  width: 30%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.xclose {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  color: #fff;
+  background-color: crimson;
+  align-self: flex-end;
+  margin-top: -1.5em;
+  margin-right: -1.5em;
+}
+.modalContainerthanks .title {
+  display: inline-block;
+  text-align: center;
+}
+
+.modalContainerthanks .body {
+  flex: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.modalContainerthanks .footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.modalContainerthanks .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.modalContainerthanks #cancelBtn {
+  background: #ea3a3d;
+}
+
+.modalContainerthanks .modalbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 24px;
+}
+
+.modalContainerthanks .thankcontent {
+  margin-bottom: 80px;
+}
+
+.modalContainerthanks .thankcontent p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  color: #424242;
+}
+
+.modalContainerthanks .thankcontent p span {
+  margin-left: 5px;
+  color: #0ca750;
+}
+
+.modalContainerthanks .modalbody .resend {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.modalContainerthanks .modalbody .resend span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 100%;
+  color: #6e6e6e;
+  margin-bottom: 50px;
+}
+
+.modalContainerthanks .modalbody .resend .green {
+  color: #0ca750;
+  margin-left: 5px;
+}
+
+.modalContainerthanks .submitbtn {
+  width: 275px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding: 12px 0px;
+  outline: none;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background: #0ca750;
+  border-radius: 6px;
+}
+
+.modalContainerthanks .resendbtn {
+  width: 350px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #0ca750;
+  padding: 12px 0px;
+  outline: none;
+  border: 1px solid #0ca750;
+  outline: none;
+  cursor: pointer;
+
+  background: #fff;
+  border-radius: 6px;
+}
+
+@media (max-width: 575.98px) {
+  .modalContainerthanks {
+    width: 84%;
+  }
+  .modalContainerthanks .modalbody {
+    padding: 30px 16px;
+  }
+
+  .modalContainerthanks .thankcontent {
+    margin-bottom: 30px;
+  }
+
+  .modalContainerthanks .submitbtn {
+    width: 250px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .modalContainerthanks {
+    width: 90%;
+  }
+  .modalContainerthanks .modalbody {
+    padding: 30px 16px;
+  }
+
+  .modalContainerthanks .thankcontent {
+    margin-bottom: 30px;
+  }
+
+  .modalContainerthanks .submitbtn {
+    width: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .modalContainerthanks {
+    width: 50%;
+    margin-top: 3%;
+  }
+
+  .modalContainerthanks .modalbody {
+    padding: 20px 14px;
+  }
+
+  .modalContainerthanks .thankcontent {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .modalContainerthanks {
+    width: 35%;
+    margin-top: 3%;
+  }
+
+  .modalContainerthanks .modalbody {
+    padding: 20px 14px;
+  }
+
+  .modalContainerthanks .thankcontent {
+    margin-bottom: 20px;
+  }
+
+  .modalContainerthanks .submitbtn {
+    width: 250px;
+  }
+}

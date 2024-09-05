@@ -1,0 +1,12 @@
+.App{ background: #EAEEF4;  min-height:100vh; min-width:100vw}
+.clear{clear:both;}
+
+
+@media screen and (max-width: 600px) {
+
+    .App{ background: #EAEEF4;  min-width:100vw}
+
+
+}
+    
+

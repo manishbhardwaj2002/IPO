@@ -1,0 +1,1054 @@
+.queryform::-webkit-scrollbar {
+  width: 10px;
+}
+
+.queryform sup {
+  color: red;
+  font-weight: bold;
+}
+
+.queryform::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.queryform::-webkit-scrollbar-thumb {
+  background: #0ca750;
+  border-radius: 5px;
+}
+.modalContaineripo .rightpanel .infobox {
+  width: 40%;
+  float: left;
+  margin-left: 10px;
+}
+.modalBackground {
+  /* width: 100vw;
+  height: 100vh; */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.modalContaineripo table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.modalContaineripo {
+  width: 70%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalContaineripo .xclose {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  color: #fff;
+  background-color: crimson;
+  align-self: flex-end;
+  margin-top: -1.5em;
+  margin-right: -1.5em;
+  z-index: 1000;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+}
+
+.modalContainer .body {
+  flex: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+#cancelBtn {
+  background: #ea3a3d;
+}
+
+.modalContaineripo .modalbody {
+  margin: 0px;
+  padding: 0px;
+  margin-top: -10px;
+  border-radius: 10px;
+}
+
+.modalContaineripo .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.modalContaineripo .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.modalContaineripo .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(218, 226, 238, 0.35);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.modalContaineripo .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.modalContaineripo input:checked + .slider {
+  background-color: #0ca750;
+}
+
+.modalContaineripo input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.modalContaineripo .slider.round {
+  border-radius: 34px;
+}
+
+.modalContaineripo .slider.round:before {
+  border-radius: 50%;
+}
+
+.modalContaineripo .modalbody .leftpanel {
+  width: 50%;
+  height: auto;
+  background: #fff;
+  display: inline;
+  float: left;
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+.modalContaineripo .modalbody .rightpanel {
+  width: 50%;
+  height: auto;
+  background: #eaeef4;
+  display: inline;
+  float: left;
+  padding: 30px 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.modalContaineripo .modalbody .leftpanel .topinfo {
+  margin-bottom: 80px;
+}
+
+.modalContaineripo .modalbody .leftpanel .topinfo .titlebox {
+  width: 60%;
+  float: left;
+}
+
+.modalContaineripo .modalbody .leftpanel .topinfo .ipostatus {
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+
+.modalContaineripo .modalbody .leftpanel .topinfo .titlebox .head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #050505;
+  margin-bottom: 5px;
+}
+
+.modalContaineripo .modalbody .leftpanel .topinfo .titlebox .companyinfo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 100%;
+  color: #6e6e6e;
+}
+
+.modalContaineripo .modalbody .leftpanel .issuedetails {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.modalContaineripo .modalbody .leftpanel .issuedetails tr {
+  border-top: 20px solid !important;
+  border-bottom: 20px solid !important;
+  border-color: transparent !important;
+}
+
+.modalContaineripo .modalbody .leftpanel .issuedetails .issuedetailinfo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px !important;
+  line-height: 100%;
+  color: #6e6e6e;
+}
+
+.modalContaineripo .modalbody .leftpanel .issuedetails .issueinfo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px !important;
+  line-height: 100%;
+  color: #424242 !important;
+}
+
+.modalContaineripo .modalbody .leftpanel .terms {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 130%;
+  margin-top: 50px;
+  text-align: justify;
+
+  color: #6e6e6e;
+}
+
+.modalContaineripo .terms .chekboxinfo {
+  float: left;
+  display: inline;
+  width: 6%;
+}
+
+.modalContaineripo .terms span {
+  float: left;
+  display: inline;
+  width: 94%;
+}
+
+.modalContaineripo .modalbody .leftpanel .topinfo .ipostatustext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 10px;
+  display: inline-block;
+  line-height: 100%;
+  color: #000000;
+}
+
+.modalContaineripo .ipobtn {
+  float: left;
+  display: inline;
+}
+
+.modalContaineripo .rightpanel .head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #050505;
+}
+
+.modalContaineripo .rightpanel .queryform {
+  margin-top: 30px;
+  height: 392px;
+  overflow-y: auto;
+}
+
+.modalContaineripo .rightpanel .infobox label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  color: #050708;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.modalContaineripo .rightpanel .infobox input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.modalContaineripo .rightpanel .client {
+  width: 83%;
+  margin-left: 2%;
+  margin-bottom: 20px;
+}
+
+.modalContaineripo .rightpanel .client label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  color: #050708;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.modalContaineripo .rightpanel .client input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.modalContaineripo .bidinfo {
+  width: 83%;
+  background: #fff;
+  padding: 10px 3px;
+  margin-left: 2%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.modalContaineripo .biddetails {
+  width: 70%;
+  float: left;
+  display: inline;
+}
+.modalContaineripo .bidbtn {
+  width: 30%;
+  float: left;
+  display: inline;
+  text-align: right;
+}
+
+.modalContaineripo .addbtn {
+  padding: 10px;
+  color: #fff;
+  border: none;
+  background: #0ca750;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.modalContaineripo .bidnumber {
+  display: inline;
+  float: left;
+  margin-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  width: 65px;
+  padding: 10px;
+   margin-bottom:7px;
+  text-align: center;
+  position: relative;
+
+  background: rgba(12, 167, 80, 0.1);
+  border: 1px solid #0ca750;
+  border-radius: 8.43px;
+
+  color: #0ca750;
+}
+
+.x {
+  position: absolute;
+  background: red;
+  color: white;
+  top: -10px;
+  right: -8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-weight: 500;
+  padding: 1px;
+  font-size: 10px;
+}
+
+.modalContaineripo .boxinfobox {
+  width: 83%;
+  margin-left: 2%;
+  padding: 12px 10px;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.modalContaineripo .shareinfo {
+  width: 40%;
+  float: left;
+  margin-left: 10px;
+}
+
+.modalContaineripo .shareinfo label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  color: #050708;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.modalContaineripo .shareinc {
+  width: 100%;
+  float: left;
+  background: rgba(12, 167, 80, 0.1);
+  border: 1px solid #0ca750;
+  border-radius: 5px;
+  padding: 5px;
+  height: 40px;
+}
+
+.modalContaineripo .totalshareprice {
+  width: 48%;
+  float: left;
+}
+
+.modalContaineripo .decbtn {
+  width: 35%;
+  height: auto;
+  color: #0ca750;
+  font-size: 24px;
+  border: 0px;
+  margin-top: -3px;
+  background: transparent;
+  float: left;
+}
+
+.modalContaineripo .datashow {
+  width: 30%;
+  height: auto;
+  color: #0ca750;
+  font-size: 20px;
+  text-align: center;
+  border: 0px;
+  background: transparent;
+  float: left;
+}
+
+.modalContaineripo .incbtn {
+  width: 35%;
+  height: auto;
+  color: #0ca750;
+  font-size: 24px;
+  border: 0px;
+  margin-top: -1px;
+  background: transparent;
+  float: left;
+  display: inline;
+}
+
+.modalContaineripo .totalshareprice {
+  width: 100%;
+  float: left;
+  background: rgba(12, 167, 80, 0.1);
+  border: 1px solid #0ca750;
+  border-radius: 5px;
+  padding: 5px;
+  height: 40px;
+  color: #0ca750;
+  padding: 10px;
+  text-align: center;
+  margin-left: 20px;
+}
+.cutoff {
+  float: right;
+  text-align: left;
+  width: 48%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #0ca750;
+}
+
+.modalContaineripo .cutoff input {
+  margin-top: 15px;
+  padding: 0px;
+  margin-right: 8px;
+}
+
+.modalContaineripo .paymentdetails .logo {
+  margin-left: 2%;
+  margin-bottom: 5px;
+}
+
+.modalContaineripo .paymentcontent {
+  background: #fff;
+  border-radius: 5px;
+  padding: 12px 10px;
+}
+
+.modalContaineripo .amount {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  color: #6e6e6e;
+  float: left;
+}
+
+.modalContaineripo .paymentcontent {
+  width: 83%;
+  margin-left: 2%;
+  margin-bottom: 20px;
+}
+
+.modalContaineripo .amountdes {
+  float: right;
+}
+.modalContaineripo .rupeeinfo {
+  display: inline-block;
+}
+
+.modalContaineripo .amt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #0ca750;
+}
+
+.modalContaineripo .btninfobox {
+  width: 83%;
+  margin-left: 2%;
+  margin-bottom: 20px;
+}
+
+.modalContaineripo .submitbtn {
+  width: 100%;
+  padding: 10px 0px;
+  background: #0ca750;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  border: 0px;
+  cursor: pointer;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.modalContaineripo .cancelbtn {
+  width: 100%;
+  padding: 10px 0px;
+  border: 1px solid #0ca750;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #0ca750;
+}
+
+@media (max-width: 575.98px) {
+  .modalBackground {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modalContaineripo .ipobtn {
+    float: right;
+    display: inline;
+  }
+
+  .modalContaineripo .xclose {
+    margin-top: -1em;
+    margin-right: -0.8em;
+  }
+
+  .modalContaineripo .modalbody .leftpanel .topinfo {
+    margin-bottom: 20px;
+  }
+
+  .modalContaineripo {
+    width: 90%;
+  }
+
+
+  .modalContaineripo .bidbtn {
+    width: 35%;
+    float: left;
+    display: inline;
+    text-align: right;
+}
+
+.cutoff {
+  float: right;
+  text-align: left;
+  width: 48%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #0ca750;
+}
+
+  .modalContaineripo .modalbody .leftpanel .issuedetails {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .modalContaineripo .modalbody {
+    padding: 10px 15px;
+    overflow: scroll;
+    height: 400px;
+  }
+
+  .modalContaineripo .modalbody .leftpanel {
+    width: 100%;
+    float: none;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+
+  .modalContaineripo .modalbody .rightpanel {
+    width: 100%;
+    float: none;
+    display: block;
+    background: #eaeef4;
+    padding: 0px;
+    margin-top: 10px;
+  }
+
+  .modalContaineripo .rightpanel .head {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+
+  .modalContaineripo .rightpanel .infobox {
+    width: 90%;
+    float: none;
+    margin-left: 0px;
+    margin: auto;
+  }
+
+  .modalContaineripo .rightpanel .client {
+    width: 90%;
+    float: none;
+    margin-left: 0px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .modalContaineripo .bidinfo {
+    width: 90%;
+    float: none;
+    margin-left: 0px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .modalContaineripo .biddetails {
+    width: 100%;
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .modalContaineripo .boxinfobox {
+    width: 90%;
+    float: none;
+    margin-left: 0px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 12px 10px;
+  }
+
+  .modalContaineripo .terms .chekboxinfo {
+    float: left;
+    display: inline;
+    width: 6%;
+    margin-right: 1%;
+  }
+  .modalContaineripo .terms span {
+    float: left;
+    display: inline;
+    width: 93%;
+  }
+
+  .modalContaineripo .modalbody .leftpanel .terms {
+    margin-top: 0px;
+  }
+
+  .modalContaineripo .paymentcontent {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+
+  .modalContaineripo .btninfobox {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+/* @media (min-width: 639px) and (max-width: 640.98px){
+
+  .modalContaineripo {
+    width: 90%;
+    margin-top: 3%;
+  } 
+
+  .modalContaineripo .modalbody {
+    overflow: auto;
+    height: 250px;
+     margin-top:3%;
+}
+} */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .modalContaineripo {
+    width: 90%;
+  }
+
+  .modalContaineripo .modalbody {
+    overflow: auto;
+    height: 400px;
+  }
+
+  .modalContaineripo .modalbody .leftpanel {
+    padding: 15px 20px;
+  }
+
+  .modalContaineripo .ipobtn {
+    float: none;
+    display: inline;
+  }
+
+  .modalContaineripo .modalbody .leftpanel .issuedetails tr {
+    border-top: 15px solid;
+    border-bottom: 15px solid;
+    border-color: transparent;
+  }
+  .modalContaineripo .modalbody .leftpanel .terms {
+    margin-top: 0px;
+  }
+
+  .modalContaineripo .modalbody .rightpanel {
+    padding: 15px 20px;
+    height: 540px;
+  }
+
+  .modalContaineripo .rightpanel .queryform {
+    margin-top: 20px;
+    height: 484px;
+    overflow-y: auto;
+  }
+
+  .modalContaineripo .rightpanel .infobox {
+    width: 94%;
+    margin: auto;
+  }
+
+  .modalContaineripo .rightpanel .infobox input {
+    margin-bottom: 15px;
+  }
+
+  .modalContaineripo .rightpanel .client {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 0px;
+  }
+
+  .modalContaineripo .rightpanel .infobox label {
+    font-size: 13px;
+  }
+
+  .modalContaineripo .rightpanel .client label {
+    font-size: 13px;
+  }
+
+  .modalContaineripo .bidinfo {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 0px;
+  }
+  .modalContaineripo .biddetails {
+    width: 100%;
+  }
+
+  .modalContaineripo .bidbtn {
+    width: 40%;
+    margin-top: 10px;
+  }
+
+  .modalContaineripo .addbtn {
+    border-radius: 5px;
+  }
+
+  .modalContaineripo .bidnumber {
+    width: 56px;
+    padding: 9px;
+  }
+
+  .modalContaineripo .boxinfobox {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 0px;
+  }
+
+  .modalContaineripo .shareinfo label {
+    font-size: 13px;
+  }
+
+  .cutoff {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+
+  .modalContaineripo .paymentcontent {
+    width: 94%;
+
+    margin-left: 0px;
+  }
+
+  .modalContaineripo .amount {
+    font-size: 13px;
+  }
+
+  .modalContaineripo .amt {
+    font-size: 18px;
+  }
+
+  .modalContaineripo .btninfobox {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 0%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .modalContaineripo {
+    width: 90%;
+    margin-top: 1%;
+  }
+
+  .modalContaineripo .modalbody {
+    overflow: auto;
+    height: 400px;
+  }
+
+  .modalContaineripo .modalbody .leftpanel {
+    padding: 15px 20px;
+  }
+
+  .modalContaineripo .ipobtn {
+    float: none;
+    display: inline;
+  }
+
+  .modalContaineripo .modalbody .leftpanel .issuedetails tr {
+    border-top: 15px solid;
+    border-bottom: 15px solid;
+    border-color: transparent;
+  }
+  .modalContaineripo .modalbody .leftpanel .terms {
+    margin-top: 0px;
+  }
+
+  .modalContaineripo .modalbody .rightpanel {
+    padding: 15px 20px;
+    height: 440px;
+  }
+
+  .modalContaineripo .rightpanel .queryform {
+    margin-top: 20px;
+    height: 350px;
+    overflow-y: auto;
+  }
+
+  .modalContaineripo .rightpanel .infobox {
+    width: 45%;
+  }
+
+  .modalContaineripo .rightpanel .infobox input {
+    margin-bottom: 15px;
+  }
+
+  .modalContaineripo .rightpanel .client {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .modalContaineripo .rightpanel .infobox label {
+    font-size: 13px;
+  }
+
+  .modalContaineripo .rightpanel .client label {
+    font-size: 13px;
+  }
+
+  .modalContaineripo .bidinfo {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .modalContaineripo .bidnumber {
+    width: 56px;
+    padding: 9px;
+  }
+
+  .modalContaineripo .boxinfobox {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .cutoff {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+
+  .modalContaineripo .paymentcontent {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .modalContaineripo .btninfobox {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .modalContaineripo .rightpanel .infobox {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  .modalContaineripo .modalbody {
+    overflow: auto;
+    height: 400px;
+  }
+
+  .modalContaineripo .modalbody .rightpanel {
+    padding: 15px 20px;
+    height: 520px;
+  }
+
+  .modalContaineripo .rightpanel .client {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .modalContaineripo .bidinfo {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .modalContaineripo .boxinfobox {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .modalContaineripo .paymentcontent {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .modalContaineripo .rightpanel .queryform {
+    margin-top: 10px;
+    height: 400px;
+    overflow-y: auto;
+  }
+
+  .modalContaineripo .rightpanel .infobox input {
+    margin-bottom: 10px;
+  }
+
+  .modalContaineripo .rightpanel .client input {
+    margin-bottom: 10px;
+  }
+
+  .modalContaineripo .btninfobox {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .modalContaineripo .ipobtn {
+    float: right;
+    display: inline;
+  }
+}
